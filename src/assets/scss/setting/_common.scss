@@ -1,0 +1,9 @@
+body {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+input::placeholder {
+    color: var(--black);
+    font-weight: 400;
+}

@@ -1,0 +1,33 @@
+:root {
+    // 메인큰글씨
+    --mainfont-big: 'League Gothic';
+    --subfont1: 'Russo One', sans-serif;
+
+    --mainfont-small: 'Russo One', sans-serif;
+
+    --korfont: 'ChosunNm';
+    --engfont: "GmarketSans";
+
+    --black: #000;
+    --yellow: #ddff0d;
+
+    --white: #fff;
+
+    // 폰트 셋팅
+    font-family: var(--mainfont-big) var(--subfont1) var(--korfont) var(--engfont);
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+
+    // 폰트 최적화
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+
+    @media (max-width: 800px) {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+}
